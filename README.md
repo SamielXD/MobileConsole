@@ -1,81 +1,49 @@
-# MobileConsole
-
-[![Mindustry Version](https://img.shields.io/badge/Mindustry-v154+-blue.svg)](https://github.com/Anuken/Mindustry)
-[![Mod Version](https://img.shields.io/badge/version-1.0-green.svg)](https://github.com/SamielXD/MobileConsole/releases)
-[![License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
-
-> 📱 Full developer console access for Mindustry mobile players!
-
-MobileConsole brings powerful developer tools to your mobile device. Access 20+ commands optimized for touch screens, with an intuitive interface designed specifically for mobile gameplay.
-
-## 📋 Table of Contents
-
-- [Features](#-features)
-- [Installation](#-installation)
-- [Quick Start](#-quick-start)
-- [Commands](#-commands)
-  - [Building Commands](#%EF%B8%8F-building-commands)
-  - [Modification Commands](#-modification-commands)
-  - [Unit Commands](#%EF%B8%8F-unit-commands)
-  - [Quick Actions](#-quick-actions)
-  - [Console System](#%EF%B8%8F-console-system)
-- [Mod Management](#-mod-management)
-- [Disclaimers](#%EF%B8%8F-disclaimers)
-- [FAQ](#-faq)
-- [Contributing](#-contributing)
-- [License](#-license)
-
-## ✨ Features
-
-- **20+ Commands** - Building, unit control, and utility commands
-- **Touch-Optimized UI** - Large buttons and swipe-friendly interface
-- **Command History** - Saves last 50 commands for quick access
-- **Favorites System** - Star your most-used commands
-- **Log Management** - Tracks up to 1,500 log entries with search/filter
-- **Mod Management** - Dashboard for tracking installed mods
-- **Color-Coded Logs** - Easy identification of errors, warnings, and info
-- **Auto-Save** - Automatic log saving every 5 minutes
-- **Export Functionality** - Share logs via clipboard or file
-
-## 📦 Installation
-
-### Method 1: In-Game (Recommended)
-
-1. Open Mindustry on your mobile device
-2. Go to **Mods** menu
-3. Tap **Import from GitHub**
-4. Enter: `SamielXD/MobileConsole`
-5. Restart the game
-
-### Method 2: Manual Installation
-
-1. Download the latest release from [Releases](https://github.com/SamielXD/MobileConsole/releases)
-2. Move the `.jar` or `.zip` file to your Mindustry mods folder:
-   - **Android**: `/storage/emulated/0/Android/data/io.anuke.mindustry/files/mods/`
-   - **iOS**: `Files → Mindustry → mods/`
-3. Restart Mindustry
-
-## 🚀 Quick Start
-
-### Accessing the Console
-
-**Via In-Game Chat:**
+MobileConsole v1.0 🎮
+�
+�
+�
+A complete developer console system for Mindustry mobile players! Access 20+ powerful commands optimized for touch screens, with an intuitive interface designed specifically for mobile gameplay.
+🌟 Overview
+MobileConsole brings powerful developer tools to your mobile device. PC players already have built-in console access, but mobile players have been left out — until now!
+This mod provides:
+20+ Commands - Building, unit control, and utility commands
+Touch-Optimized UI - Large buttons and swipe-friendly interface
+Command History - Saves last 50 commands for quick access
+Favorites System - Star your most-used commands
+Log Management - Tracks up to 1,500 log entries with search/filter
+Mod Management - Dashboard for tracking installed mods
+Color-Coded Logs - Easy identification of errors, warnings, and info
+Auto-Save - Automatic log saving every 5 minutes
+Export Functionality - Share logs via clipboard or file
+📦 Installation
+Method 1: In-Game (Recommended)
+Open Mindustry on your mobile device
+Go to Mods menu
+Tap Import from GitHub
+Enter: SamielXD/MobileConsole
+Restart the game
+Method 2: Manual Installation
+Download the latest release from Releases
+Move the .jar or .zip file to your Mindustry mods folder:
+Android: /storage/emulated/0/Android/data/io.anuke.mindustry/files/mods/
+iOS: Files → Mindustry → mods/
+Restart Mindustry
+🚀 Quick Start
+Accessing the Console
+Via In-Game Chat:
 /customhelp  - Show all available commands
 /chelp       - Show console system help
-**Via Settings Menu:**
-1. Open **Settings**
-2. Navigate to **Developer Console**
-3. Tap **Open Console** button
-
-### First Commands to Try
-
-```bash
-/wallcore              # Protect your core with walls
-/resources             # Check your resource levels
-/power                 # View power grid status
-/spawn dagger 5        # Spawn 5 dagger units
-/repair                # Repair all damaged buildings
-📖 Commands
+Via Settings Menu:
+Open Settings
+Navigate to Developer Console
+Tap Open Console button
+First Commands to Try
+/wallcore              - Protect your core with walls
+/resources             - Check your resource levels
+/power                 - View power grid status
+/spawn dagger 5        - Spawn 5 dagger units
+/repair                - Repair all damaged buildings
+📖 Commands Reference
 🏗️ Building Commands
 Command
 Description
@@ -167,28 +135,28 @@ Filter logs (all/error/warn/info)
 Search in logs
 🔧 Mod Management
 Access mod management features:
-/mod                    # Show mod dashboard
-/mod list               # List all installed mods
-/mod info <name>        # Detailed mod information
-/mod conflicts          # Check for command conflicts
-/mod commands <name>    # Show mod's commands
-/mod search <keyword>   # Search mods
+/mod                    - Show mod dashboard
+/mod list               - List all installed mods
+/mod info <name>        - Detailed mod information
+/mod conflicts          - Check for command conflicts
+/mod commands <name>    - Show mod's commands
+/mod search <keyword>   - Search mods
 Link commands to mods:
-/linkcmd <command> <modname>    # Link command to mod
-/unlinkcmd <command>             # Unlink command
-⚠️ Disclaimers
-Important Notes
-⚠️ Not all commands may work on every device or game version
-⚠️ Building commands require appropriate permissions
-⚠️ Use at your own risk - some commands may affect game performance
-⚠️ This mod is in active development - bugs may occur
-⚠️ PC users already have built-in console access - this mod is specifically for mobile devices
+/linkcmd <command> <modname>    - Link command to mod
+/unlinkcmd <command>             - Unlink command
+⚠️ Important Disclaimers
 Multiplayer Support
 This mod works in single-player only:
 The console interface and commands are client-side
 Most commands that modify the game (spawning units, building, etc.) will NOT work on multiplayer servers
 Only informational commands (checking resources, power, etc.) may work in multiplayer
 For multiplayer gameplay, use the standard game features instead
+Important Notes
+⚠️ Not all commands may work on every device or game version
+⚠️ Building commands require appropriate permissions
+⚠️ Use at your own risk - some commands may affect game performance
+⚠️ This mod is in active development - bugs may occur
+⚠️ PC users already have built-in console access - this mod is specifically for mobile devices
 Compatibility
 Designed for mobile devices (Android/iOS)
 Requires Mindustry v154 or higher
@@ -220,21 +188,28 @@ Commit your changes (git commit -m 'Add some AmazingFeature')
 Push to the branch (git push origin feature/AmazingFeature)
 Open a Pull Request
 Development Setup
-# Clone the repository
 git clone https://github.com/SamielXD/MobileConsole.git
 cd MobileConsole
-
-# Make your changes to scripts/main.js
-
-# Test in Mindustry by copying the mod folder to your Mindustry mods directory
+Make your changes to scripts/main.js, then test by copying the mod folder to your Mindustry mods directory.
 Testing Your Changes
 Copy the modified mod folder to your Mindustry mods directory
 Launch Mindustry and enable the mod
 Test commands in single-player mode
 Check console logs for errors using /export
+🚧 Coming Soon
+Future updates will include:
+More building commands
+Advanced scripting support
+Custom command creation
+Better multiplayer compatibility
+Performance optimizations
+More UI customization options
+Stay tuned for updates!
 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 📞 Contact
 GitHub Issues: Report bugs or request features
 Discussions: Join the conversation
+Author: SamielXD
 ⭐ Star this repo if you find it helpful!
+Thanks for using MobileConsole, and happy commanding! 🎮
