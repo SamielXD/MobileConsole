@@ -1,58 +1,75 @@
+# MobileConsole
 
-MobileConsole
-�
-�
-�
-📱 Full developer console access for Mindustry mobile players!
+[![Mindustry Version](https://img.shields.io/badge/Mindustry-v154+-blue.svg)](https://github.com/Anuken/Mindustry)
+[![Mod Version](https://img.shields.io/badge/version-1.0-green.svg)](https://github.com/SamielXD/MobileConsole/releases)
+[![License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
+
+> 📱 Full developer console access for Mindustry mobile players!
+
 MobileConsole brings powerful developer tools to your mobile device. Access 20+ commands optimized for touch screens, with an intuitive interface designed specifically for mobile gameplay.
-📋 Table of Contents
-Features
-Installation
-Quick Start
-Commands
-Building Commands
-Modification Commands
-Unit Commands
-Quick Actions
-Console System
-Mod Management
-Disclaimers
-FAQ
-Contributing
-License
-✨ Features
-20+ Commands - Building, unit control, and utility commands
-Touch-Optimized UI - Large buttons and swipe-friendly interface
-Command History - Saves last 50 commands for quick access
-Favorites System - Star your most-used commands
-Log Management - Tracks up to 1,500 log entries with search/filter
-Mod Management - Dashboard for tracking installed mods
-Color-Coded Logs - Easy identification of errors, warnings, and info
-Auto-Save - Automatic log saving every 5 minutes
-Export Functionality - Share logs via clipboard or file
-📦 Installation
-Method 1: In-Game (Recommended)
-Open Mindustry on your mobile device
-Go to Mods menu
-Tap Import from GitHub
-Enter: SamielXD/MobileConsole
-Restart the game
-Method 2: Manual Installation
-Download the latest release from Releases
-Move the .jar or .zip file to your Mindustry mods folder:
-Android: /storage/emulated/0/Android/data/io.anuke.mindustry/files/mods/
-iOS: Files → Mindustry → mods/
-Restart Mindustry
-🚀 Quick Start
-Accessing the Console
-Via In-Game Chat:
+
+## 📋 Table of Contents
+
+- [Features](#-features)
+- [Installation](#-installation)
+- [Quick Start](#-quick-start)
+- [Commands](#-commands)
+  - [Building Commands](#%EF%B8%8F-building-commands)
+  - [Modification Commands](#-modification-commands)
+  - [Unit Commands](#%EF%B8%8F-unit-commands)
+  - [Quick Actions](#-quick-actions)
+  - [Console System](#%EF%B8%8F-console-system)
+- [Mod Management](#-mod-management)
+- [Disclaimers](#%EF%B8%8F-disclaimers)
+- [FAQ](#-faq)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+## ✨ Features
+
+- **20+ Commands** - Building, unit control, and utility commands
+- **Touch-Optimized UI** - Large buttons and swipe-friendly interface
+- **Command History** - Saves last 50 commands for quick access
+- **Favorites System** - Star your most-used commands
+- **Log Management** - Tracks up to 1,500 log entries with search/filter
+- **Mod Management** - Dashboard for tracking installed mods
+- **Color-Coded Logs** - Easy identification of errors, warnings, and info
+- **Auto-Save** - Automatic log saving every 5 minutes
+- **Export Functionality** - Share logs via clipboard or file
+
+## 📦 Installation
+
+### Method 1: In-Game (Recommended)
+
+1. Open Mindustry on your mobile device
+2. Go to **Mods** menu
+3. Tap **Import from GitHub**
+4. Enter: `SamielXD/MobileConsole`
+5. Restart the game
+
+### Method 2: Manual Installation
+
+1. Download the latest release from [Releases](https://github.com/SamielXD/MobileConsole/releases)
+2. Move the `.jar` or `.zip` file to your Mindustry mods folder:
+   - **Android**: `/storage/emulated/0/Android/data/io.anuke.mindustry/files/mods/`
+   - **iOS**: `Files → Mindustry → mods/`
+3. Restart Mindustry
+
+## 🚀 Quick Start
+
+### Accessing the Console
+
+**Via In-Game Chat:**
 /customhelp  - Show all available commands
 /chelp       - Show console system help
-Via Settings Menu:
-Open Settings
-Navigate to Developer Console
-Tap Open Console button
-First Commands to Try
+**Via Settings Menu:**
+1. Open **Settings**
+2. Navigate to **Developer Console**
+3. Tap **Open Console** button
+
+### First Commands to Try
+
+```bash
 /wallcore              # Protect your core with walls
 /resources             # Check your resource levels
 /power                 # View power grid status
