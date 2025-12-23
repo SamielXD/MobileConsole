@@ -69,11 +69,11 @@ MobileConsole brings powerful developer tools to your mobile device. Access 20+ 
 
 ## First Commands to Try
 
-/wallcore              # Protect your core with walls
-/resources             # Check your resource levels
-/power                 # View power grid status
-/spawn dagger 5        # Spawn 5 dagger units
-/repair                # Repair all damaged buildings
+-/wallcore              # Protect your  -core with walls
+-/resources             # Check your -resource levels
+-/power                 # View power grid -status
+-/spawn dagger 5        # Spawn 5 dagger -units
+-/repair                # Repair all -damaged buildings
 📖 Commands
 🏗️ Building Commands
 Command
