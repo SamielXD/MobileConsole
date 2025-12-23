@@ -69,7 +69,6 @@ MobileConsole brings powerful developer tools to your mobile device. Access 20+ 
 
 ## First Commands to Try
 
-```bash
 /wallcore              # Protect your core with walls
 /resources             # Check your resource levels
 /power                 # View power grid status
