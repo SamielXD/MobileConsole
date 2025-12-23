@@ -76,7 +76,7 @@ MobileConsole brings developer tools to your mobile device. Build, spawn, modify
 [white[]]- SamielXD[[]]
 '''
 version: "1.0"
-minGameVersion: 154
+minGameVersion: 154.3
 hidden: true
 dependencies: []
 main: "scripts/main.js"
