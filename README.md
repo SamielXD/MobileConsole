@@ -67,7 +67,7 @@ MobileConsole brings powerful developer tools to your mobile device. Access 20+ 
 2. Navigate to **Developer Console**
 3. Tap **Open Console** button
 
-### First Commands to Try
+## First Commands to Try
 
 ```bash
 /wallcore              # Protect your core with walls
