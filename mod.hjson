@@ -1,0 +1,83 @@
+name: "mobileconsole"
+displayName: "Mobile Console"
+author: "SamielXD"
+description:
+'''
+[accent[]]MobileConsole v1.0 - Developer Tools for Mobile Players[[]]
+[white[]]📱 Full console access on your phone or tablet![[]]
+[yellow[]]⚠️ This mod is specifically designed for mobile devices where console features are normally unavailable.[[]]
+[red[]]⚠️ SINGLE-PLAYER ONLY - This mod does not work in multiplayer![[]]
+[accent[]]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[[]]
+[red[]]⚠️ IMPORTANT DISCLAIMERS:[[]]
+[yellow[]]• Not all commands may work on every device or game version[[]]
+[yellow[]]• Commands only work in single-player mode[[]]
+[yellow[]]• Building commands require appropriate permissions[[]]
+[yellow[]]• Use at your own risk - some commands may affect game performance[[]]
+[yellow[]]• This mod is in active development - bugs may occur[[]]
+[accent[]]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[[]]
+[gold[]]📋 What Is This?[[]]
+MobileConsole brings developer tools to your mobile device. Build, spawn, modify, and control your game with over 20 commands optimized for touch screens.
+[accent[]]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[[]]
+[cyan[]]🎮 How to Access:[[]]
+[white[]]In-Game:[[]]
+• Type [cyan[]]/customhelp[[]] in chat to see all commands
+• Type [cyan[]]/chelp[[]] for console system help
+[white[]]Settings Menu:[[]]
+• Open Settings → Developer Console
+• Tap [cyan[]]Open Console[[]] button
+[white[]]Quick Commands:[[]]
+• Type any command in chat starting with /
+[accent[]]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[[]]
+[lime[]]🏗️ Building Commands:[[]]
+[cyan[]]/wallcore [type][[]] - Builds walls around your core
+[cyan[]]/fill     [[]] - Fill area with blocks
+[cyan[]]/clear [radius][[]] - Clear buildings around position
+[cyan[]]/conveyor    [[]] - Build conveyor lines
+[cyan[]]/powerline    [[]] - Create power connections
+[cyan[]]/wallline     [type][[]] - Draw wall lines
+[accent[]]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[[]]
+[yellow[]]🔧 Modification Commands:[[]]
+[cyan[]]/upgrade  [[]] - Upgrade building types
+[cyan[]]/replace  [[]] - Replace blocks
+[cyan[]]/toggle [block][[]] - Enable/disable buildings
+[cyan[]]/repair[[]] - Repair all damaged buildings
+[accent[]]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[[]]
+[royal[]]⚔️ Unit Commands:[[]]
+[cyan[]]/spawn   [x] [y][[]] - Spawn units
+[cyan[]]/healunits[[]] - Restore all friendly units to full health
+[cyan[]]/rally[[]] - Command units to your position
+[cyan[]]/killenemies [radius][[]] - Eliminate enemies
+[cyan[]]/units[[]] - Display unit statistics
+[accent[]]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[[]]
+[cyan[]]⚡ Quick Actions:[[]]
+[cyan[]]/turrets[[]] - Toggle all turrets
+[cyan[]]/power[[]] - Display power grid statistics
+[cyan[]]/resources[[]] - Check core resources
+[cyan[]]/screenshot[[]] - Take clean screenshot
+[accent[]]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[[]]
+[lime[]]🖥️ Console System:[[]]
+[cyan[]]/chelp[[]] - Show console help
+[cyan[]]/clear[[]] - Clear console logs
+[cyan[]]/scan[[]] - Scan for available commands
+[cyan[]]/stats[[]] - Show console statistics
+[cyan[]]/commands[[]] - List all detected commands
+[accent[]]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[[]]
+[gold[]]🎯 Features:[[]]
+• Command history (last 50 commands)
+• Favorites system
+• Log management (1,500 entries)
+• Search and filter functionality
+• Touch-optimized interface
+• Color-coded logs
+• Mod management system
+[accent[]]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[[]]
+[white[]]Type [cyan[]]/customhelp[[]] in chat or open Settings → Developer Console to start![[]]
+[yellow[]]Report issues on GitHub: github.com/SamielXD/MobileConsole[[]]
+[white[]]- SamielXD[[]]
+'''
+version: "1.0"
+minGameVersion: 154.3
+hidden: true
+dependencies: []
+main: "scripts/main.js"
+repo: "SamielXD/MobileConsole"
